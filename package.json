@@ -1,6 +1,6 @@
 {
   "name": "mocha-using",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A better way to mock in Mocha",
   "main": "index.js",
   "scripts": {
