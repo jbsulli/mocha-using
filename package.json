@@ -1,0 +1,35 @@
+{
+  "name": "mocha-using",
+  "version": "0.0.0",
+  "description": "A better way to mock in Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test-*.js",
+    "build": "istanbul cover node_modules/mocha/bin/_mocha ./test/test-*.js -- -u exports -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbsulli/mocha-using.git"
+  },
+  "keywords": [
+    "mocha",
+    "mock",
+    "stub",
+    "proxyquire",
+    "mocking"
+  ],
+  "author": "Joshua Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbsulli/mocha-using/issues"
+  },
+  "homepage": "https://github.com/jbsulli/mocha-using#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "proxyquire": "^1.8.0"
+  }
+}
